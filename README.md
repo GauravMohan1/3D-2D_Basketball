@@ -1,2 +1,1 @@
-# 3D-2D_Basketball
-Converting game film onto a 2D basketball mini-map for improved film study use.
+Make sure to read the related [LinkedIn article](https://www.linkedin.com/pulse/journey-towards-creating-basketball-mini-map-stephan-janssen) to better understand the tutorial.
