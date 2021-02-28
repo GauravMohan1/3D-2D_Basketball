@@ -1,1 +1,1 @@
-Make sure to read the related [LinkedIn article](https://www.linkedin.com/pulse/journey-towards-creating-basketball-mini-map-stephan-janssen) to better understand the tutorial.
+Run Players_mapping_onto_mini-map.ipynb in the minimap tutorial folder. You must have an input (mp4 video) with game film. 
