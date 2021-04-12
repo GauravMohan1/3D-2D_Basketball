@@ -8,7 +8,9 @@
 ![Screen Shot 2021-04-12 at 3 09 07 PM](https://user-images.githubusercontent.com/51386698/114468951-1d630280-9ba1-11eb-88d5-73bd2e5ff453.png)
 4. Now we need to take a 2D image of the court so we can translate the image frame onto the court. We have to specify the dimensions so we can proportionally transform the player coordinates accordingly. The court image is shown below.
 ![Screen Shot 2021-04-12 at 3 09 15 PM](https://user-images.githubusercontent.com/51386698/114469135-6e72f680-9ba1-11eb-8552-a79e5526e4b0.png)
-5. Now we can apply homography function to reshape the frame to the same dimensions of the court image. The converted image is shown below.![Screen Shot 2021-04-12 at 3 09 22 PM](https://user-images.githubusercontent.com/51386698/114469397-eb9e6b80-9ba1-11eb-9f7e-cc7e3eff17e7.png)
+5. Now we can apply homography function to reshape the frame to the same dimensions of the court image. The converted image is shown below.
+
+![Screen Shot 2021-04-12 at 3 09 22 PM](https://user-images.githubusercontent.com/51386698/114469397-eb9e6b80-9ba1-11eb-9f7e-cc7e3eff17e7.png)
 
 Notice the blue points next to each player. In order to do this we need to take the prediction boxes generated from detectron2 to generate coordinate points and images for each player. This is used to not only find the players on the court but to also determine the color value for player classification.
 
