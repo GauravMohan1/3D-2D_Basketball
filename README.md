@@ -1,7 +1,7 @@
-## Converting TV Broadcast footage of game into a 2D Visualization
+# Converting TV Broadcast footage of game into a 2D Visualization
 
 
-# Initial Process
+## Initial Process
 1. The inital input video is placed in the videos folder.
 2. We then install our dependencies. This includes detectron2 and opencv. These dependencies allow us to track objects in a frame, determine what the object is and apply homography to the frames to convert the vectors from a 3D scale to a 2D one.
 3. We then determine the dimensions of the court and display it as shown below. This is important as we will track the players by determining if their two-dimensional coordinates are within the court dimensions we have specified. 
@@ -14,7 +14,7 @@
 
 Notice the blue points next to each player. In order to do this we need to take the prediction boxes generated from detectron2 to generate coordinate points and images for each player. This is used to not only find the players on the court but to also determine the color value for player classification.
 
-# Player Classification and Final Process
+## Player Classification and Final Process
 
 1. The prediction boxes are used in our drawPlayers method to find the center coordinates of the player on the court and draw these points as shown below.
 ![Screen Shot 2021-04-12 at 3 17 46 PM](https://user-images.githubusercontent.com/51386698/114469620-5a7bc480-9ba2-11eb-8f0c-001bf87825d7.png)
@@ -26,7 +26,7 @@ Notice the blue points next to each player. In order to do this we need to take 
 4. From there our final function drawPlayersOnCourt takes the data from the previous functions including transformed player coordinates to draw circles representing players onto the basektball court. Each frame is passed through these functions and written to an MP4 file using opencv. 
 
 
-# Demo Output
+## Demo Output
 
 
-# Plans in the Future
+## Plans in the Future
