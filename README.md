@@ -27,9 +27,10 @@ Notice the blue points next to each player. In order to do this we need to take 
 
 
 ## Demo Output
-
-https://user-images.githubusercontent.com/51386698/114638057-9c2e6d00-9c7f-11eb-9b4d-68b392a311f2.mp4
-
-
+https://www.youtube.com/watch?v=EQALqWB15gs
 
 ## Plans in the Future
+1. Complete the team color classification and reduce noise in player movement.
+2. Separately define basketball in visualization to track ball movement.
+3. Assess defensive spacing on offensive possessions that result in points.
+4. Create a model to determine defensive scheme based on player spacing. 
