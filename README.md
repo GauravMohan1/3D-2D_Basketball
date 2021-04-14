@@ -28,5 +28,8 @@ Notice the blue points next to each player. In order to do this we need to take 
 
 ## Demo Output
 
+https://user-images.githubusercontent.com/51386698/114638057-9c2e6d00-9c7f-11eb-9b4d-68b392a311f2.mp4
+
+
 
 ## Plans in the Future
